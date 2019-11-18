@@ -20,7 +20,7 @@ Test Case:
 
 import java.util.Scanner;
 
-public class StringPrint
+public class StringLengthSpaceString
 {
     public static void main(String [] args)
     {
