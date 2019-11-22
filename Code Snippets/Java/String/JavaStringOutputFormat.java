@@ -7,17 +7,18 @@ characters long. So for given String keep adding trailing spaces to make it 15 s
 given Integer has heading 0 if and only if given integer is not a 3 digits number.
 
 Test Case:
+
     Input:
-          Anim 200
-          Akash 1
-          AnimAkash 24
+           Anim 200
+           Akash 1
+           AnimAkash 24
           
   Output:
-         ================================
-         Anim            200
-         Akash           001
-         AnimAkash       024
-         ================================
+          ================================
+          Anim            200
+          Akash           001
+          AnimAkash       024
+          ================================
 */
 
 import java.util.*;
