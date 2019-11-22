@@ -4,7 +4,9 @@ Problem ->
 
 Given Number of String, When White Space is encountered new line and space are added from the ending point of first non white space word
 or character. And Continue doing it till last String from String Stream is not encountered.
+
 Test Case:
+
     Input: 
             How Many String: 4
             Enter 4 Strings for Array:
