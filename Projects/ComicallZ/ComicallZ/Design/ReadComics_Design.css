@@ -1,0 +1,74 @@
+#full
+{
+	width:100%;
+	height:150vh;
+}
+#upper
+{
+	width:100%;
+	height:15vh;
+}
+#upper_part1
+{
+	width:50%;
+	height:15vh;
+	float:left;
+}
+#upper_part2
+{
+	width:50%;
+	height:15vh;
+	float:left;
+}
+#lower
+{
+	width:100%;
+	height:235vh;
+}
+#lower_comicsInfo_container
+{
+	width:100%;
+	height:35vh;
+}
+#lower_comicsInfo_container_left
+{
+	width:50%;
+	height:35vh;
+	float:left;
+}
+#lower_comicsInfo_container_right
+{
+	width:50%;
+	height:35vh;
+	float:left;
+}
+#lower_comicsAbout_container
+{
+	width:100%;
+	height:20vh;
+}
+#lower_comicsElement_container
+{
+	width:100%;
+	height:180vh;
+}
+/*Button Desgin Start*/
+.buttons
+{
+	background-color:#E6E6E6;
+	border:none;
+	border-radius:12px;
+	color :black;
+	padding :3px 12px;
+	text-align:center;
+	text-decoration:none;
+	table-layout:fixed;
+	display:inline-block;
+	font-size:12px;
+	cursor:pointer;
+}
+.buttons:hover
+{
+	opacity:0.8;
+}
+/*Button Design Finish*/

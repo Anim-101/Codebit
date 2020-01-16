@@ -1,0 +1,112 @@
+#lol 
+{
+	width:100%;
+	height:100vh;
+}
+#upper
+{
+	width:100%;
+	height:20vh;
+}
+#part_upper1
+{
+	width:20%;
+	height:20vh;
+	float:left;
+	/*background-color:#F5F5DC;*/
+}
+#part_upper2
+{
+	width:60%;
+	height:20vh;
+	float:left;
+	/*background-color:#8A2BE2;*/
+}
+#part_upper3
+{
+	width:20%;
+	height:20vh;
+	float:left;
+	/*background-color:#00FFFF;*/
+}
+#lower
+{
+	width:100%;
+	height:80vh;
+}
+#lower_left
+{
+	width:20%;
+	height:80vh;
+	float:left;
+}
+#lower_middle
+{
+	width:60%;
+	height:80vh;
+	float:left;
+}
+#lower_right
+{
+	width:20%;
+	height:80vh;
+	float:left;
+}
+
+/*Design for Comics Load Starts */
+#container
+{
+	margin:100px;
+}
+
+#full
+{
+	width:600px;
+	height:300px;
+}
+
+#upper_full
+{
+	width:100%;
+	height:50px;
+}
+#middle_left_half
+{
+	width:40%;
+	height:200px;
+	float:left;
+}
+#middle_right_half
+{
+	width:60%;
+	height:200px;
+	float:left;
+}
+#lower_full
+{
+	padding-top:200px;
+	width:100%;
+	height:50px;
+}
+/*Design for Comics Load Ends*/
+
+/* Button Design Starts */
+.buttons
+{
+	background-color:#778899;
+	border:none;
+	border-radius:12px;
+	color :white;
+	padding :3px 12px;
+	text-align:center;
+	text-decoration:none;
+	table-layout:fixed;
+	display:inline-block;
+	font-size:12px;
+	cursor:pointer;
+}
+.buttons:hover
+{
+	opacity:0.8;
+}
+/*Button Design Ends*/

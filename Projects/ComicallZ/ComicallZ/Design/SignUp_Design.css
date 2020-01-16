@@ -1,0 +1,55 @@
+/*Designing Div side by side Start*/
+#_div1,#_div2
+{
+	width:auto;
+	height:auto;
+	border:1px;
+	margin-right:10px;
+	float:left;
+}
+/*Designing Div side by side End*/
+form
+/*Border Form Design Start*/
+
+{
+	border: 3px solid #F8F8FF;
+}
+/*Border Form Desing End*/
+input[type=text],input[type=password]
+/*Taking Sized Inputs Start*/
+{
+	width:auto;
+	padding:12px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+}
+/*Taking Sized Inputs End*/
+button,input[type=submit]
+/*Designing Button Style for All Buttons Start*/
+{
+	background-color:#000000;
+	color:white;
+	padding:12px 8px;
+	margin:8px 0;
+	border:none;
+	cursor:pointer;
+	width:40%;	
+}
+/*Designing Button Style for All Buttons End*/
+button,input[type=submit]
+/*Designing Hover Effects for buttons Start*/
+{
+	opacity:0.8;
+}
+/*Designing Hover Effects for buttons End*/
+
+/*Style for Cancel Button Start*/
+.cancelBtn
+{
+	width:40%;
+	padding:12px 8 px;
+	background-color: #000000;
+}
+/*Style for Cancel Button End*/

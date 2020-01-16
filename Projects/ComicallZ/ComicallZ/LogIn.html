@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ComicallZ- Log In</title>
+<link rel="stylesheet" href="Design/LogIn_Design.css">
+</head>
+<body>
+<script>
+function formValidation()
+{
+	var email=document.Log.email.value;
+	var password=document.Log.password.value;
+	var status =false;
+	//Email Checking Through JavaScript
+	if(email.length<1)
+	{
+		document.getElementById("emailLoc").innerHTML=
+		'<img src="Resource/unchecked.gif"/>Put your Email Address for this Community\'s Sake';
+		status=false;
+	}
+	else 
+	{
+		var atPosition=email.indexOf("@");
+		var dotPosition=email.indexOf(".");
+		if (atPosition<1 || dotPosition<atPosition+2 || dotPosition+2>=email.length)
+		{
+			document.getElementById("emailLoc").innerHTML=
+			'<img src="Resource/unchecked.gif"/>Invalid Email Format';
+			status=false;
+		}
+		else 
+		{
+			document.getElementById("emailLoc").innerHTML=
+			'<img src="Resource/checked.png" width="15" height="15"/>Alright';
+			status=true;
+		}
+	}
+	//Password Checking though Java Script
+	if(password.length<1)
+	{
+		document.getElementById("passwordLoc").innerHTML=
+		'<img src="Resource/unchecked.gif"/>Password Can\'t be Blanked';
+		status=false;
+	}
+	else 
+	{
+		if(password.length<8)
+			{
+				document.getElementById("passwordLoc").innerHTML=
+				'<img src="Resource/unchecked.gif"/>Password Must be 8 char Long';
+				status=false;
+			}
+		else 
+			{
+				document.getElementById("passwordLoc").innerHTML=
+				'<img src="Resource/checked.png" width="15" height="15"/>Alright';
+				status=true;
+			}
+	}
+	return status;
+}
+</script>
+<center>
+<form name="Log" action ="LogIn.php" method="post" onsubmit="return formValidation()">
+<!-- Image above From -> Start -->
+<div class="imgcontainer">
+<a href="LogIn.html">
+<img src="Resource/Hayao-Miyazaki.jpg" alt="Nothing to Load" class="avatar" title="Reload">
+</a>
+</div>
+<!-- Image above From -> End -->
+
+<!-- Form Div Start -->
+<div class="contianer">
+<label><b>Email</b></label><br>
+<span id="emailLoc"></span><br>
+<input type="text" placeholder="Enter your Email" name="email"><br>
+<label><b>Password</b></label><br>
+<span id="passwordLoc"></span><br>
+<input type="password" placeholder="Enter your Password" name="password"><br>
+<input type="submit" title="Done!" value="Login">
+</div>
+<!-- Form Div End -->
+<!-- Cancel Button Div Start -->
+<div class ="contianer">
+<button type="button" class="cancelBtn" title="Go Back" onclick="location.href='Main.html'">Cancel</button>
+</div>
+<!-- Cancel Button Div End -->
+</form>
+<!-- End of Loging Form -->
+</center>
+</body>
+</html>

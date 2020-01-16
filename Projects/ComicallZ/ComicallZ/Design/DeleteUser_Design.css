@@ -1,0 +1,18 @@
+.buttons
+{
+	background-color:white;
+	border:none;
+	border-radius:12px;
+	color :black;
+	padding :3px 12px;
+	text-align:center;
+	text-decoration:none;
+	table-layout:fixed;
+	display:inline-block;
+	font-size:12px;
+	cursor:pointer;
+}
+.buttons:hover
+{
+	opacity:0.8;
+}

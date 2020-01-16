@@ -1,0 +1,78 @@
+/*Main Design For the LogIn Form*/
+
+/*Background Color Design Start*/
+body
+{
+	background-color:#E6E6FA;
+}
+/*Background Color Design End*/
+
+/*Border Form Design Start*/
+form 
+{
+	border: 3px solid #F8F8FF;
+}
+/*Border Form Desing End*/
+
+/*Taking Sized Inputs Start*/
+input[type=text],input[type=password]
+{
+	width:auto;
+	padding:12px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+}
+/*Taking Sized Inputs End*/
+
+/*Designing Button Style for All Buttons Start*/
+button,input[type=submit]
+{
+	background-color:#000000;
+	color:white;
+	padding:12px 8px;
+	margin:8px 0;
+	border:none;
+	cursor:pointer;
+	width:10%;	
+}
+/*Designing Button Style for All Buttons End*/
+
+/*Designing Hover Effects for buttons Start*/
+button:hover,input[type=submit]:hover
+{
+	opacity:0.8;
+}
+/*Designing Hover Effects for buttons End*/
+
+/*Style for Cancel Button Start*/
+.cancelBtn
+{
+	width:10%;
+	padding:12px 8 px;
+	background-color: #000000;
+}
+/*Style for Cancel Button End*/
+
+/*Design Center the avatar Image Inside this Container Start*/
+.imgcontainer
+{
+	text-align: center;
+	margin:24px 0 12px 0;
+}
+/*Design Center the avatar Image Inside this Container End*/
+
+/*Desing for Avatar Image Start */
+img.avatar
+{
+	width:25%;
+	border-radius:25%;
+/*Desing for Avatar Image End */
+
+/*Adding Padding to Cointainers Start*/
+.container 
+{
+	padding: 16px;
+}
+/* Adding Padding to Cointainers End */

@@ -1,0 +1,110 @@
+/*Default useful Tags Customization Start*/
+body
+{
+	margin:0px;
+}
+/*Default useful Tags Customization Start Finish*/
+/*Self-Made Class for tags*/
+
+/*Button Desgin Start*/
+.button
+{
+	background-color:#333333;
+	border:none;
+	color :white;
+	padding :5px 15px;
+	text-align:center;
+	top:50%;
+	text-decoration:none;
+	display:inline-block;
+	font-size:15px;
+	cursor:pointer;
+}
+.button:hover
+{
+	opacity:0.8;
+}
+/*Button Design Finish*/
+
+/*Hight and Width for Main Div Container Start*/
+.full-height
+{
+	height:100vh;
+}
+.full-width
+{
+	width:100vw;
+}
+/*Hight and Width for Main Div Container Finish*/
+
+/*Design fpr Tooltip Start*/
+/*Tooltip Container*/
+.tooltip
+{
+	position :relative;
+	display : inline-block;
+}
+/*Tooltip Container Finish*/
+
+/*Tooltip Text*/
+.tooltip .tooltiptext 
+{
+	visibility:hidden;
+	width:200px;
+	background-color : black;
+	color :#fff;
+	text-align:center;
+	padding :5px 0;
+	border-radius:6px;
+	position:absolute;
+	z-index:1;
+}
+/*Tooltip Text Finish*/
+
+/*Show the Tooltip text when user mouse over the Tooltip container*/
+.tooltip:hover .tooltiptext 
+{
+	visibility:visible;
+}
+/*Show the Tooltip text when user mouse over the Tooltip container Finish*/
+/*Design for Tooltip Finish*/
+/*Self-Made Class for Tags Finish*/
+
+
+/*Self-Made Id Start*/
+
+#parent
+{
+	width:100%;
+	display:inline-flex;
+	background-color:#FFFFFF;
+}
+
+#parent .left
+{
+float:left;
+width:75%;
+overflow:hidden;
+}
+
+#parent .right
+{
+float:left;
+width:25%;
+overflow:hidden;
+}	
+
+#lol 
+{
+	padding-top: 50px;
+    /*padding-right: 30px;*/
+    padding-bottom: 20px;
+    /*padding-left: 80px;*/
+}
+#lol2
+{
+	padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}

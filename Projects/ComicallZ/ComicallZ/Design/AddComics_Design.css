@@ -1,0 +1,191 @@
+#full1
+{
+	width:100%;
+	height:100vh;
+}
+#upper
+{
+	width:100%;
+	height:15vh;
+}
+#upper_pic_container
+{
+	width:50%;
+	height:15vh;
+	float:left;
+}
+#upper_button_container
+{
+	width:50%;
+	height:15vh;
+	float:left;
+}
+#lower 
+{
+	width:100%;
+	height:85vh;
+}
+#lower_button_container
+{
+	width:10%;
+	height:85vh;
+	float:left;
+}
+#lower_form_container
+{
+	width:90%;
+	height:85vh;
+	float:left;
+}
+#lower_form_container1
+{
+	width:100%;
+	height:85vh;
+	float:left;
+	display:none;
+}
+#lower_form_container2
+{
+	width:100%;
+	height:85vh;
+	float:left;
+	display:none;
+}
+#lower_form_container3
+{
+	width:100%;
+	height:85vh;
+	float:left;
+	display:none;
+}
+#lower_form_container4
+{
+	width:100%;
+	height:85vh;
+	float:left;
+	display:none;
+}
+#lower_form_container5
+{	
+	width:100%;
+	height:85vh;
+	float:left;
+	display:none;
+}
+.hidden>div
+{
+	display:none;
+}
+.visible>div
+{
+	display:block;
+}
+
+/*Button Desgin Start*/
+.buttons
+{
+	background-color:#39CCCC;
+	border:none;
+	border-radius:12px;
+	color :white;
+	padding :3px 12px;
+	text-align:center;
+	text-decoration:none;
+	table-layout:fixed;
+	display:inline-block;
+	font-size:12px;
+	cursor:pointer;
+}
+.buttons:hover
+{
+	opacity:0.8;
+}
+/*Button Design Finish*/
+
+/*Design for Add Options Starts*/
+input[type=text],textarea
+{
+	width:350px;
+	box-sizing:border-box;
+	border-radius:20px;
+	border:2px solid #000;
+	border-radius:4px;
+	font-size:16px;
+	background-color:white;
+	background-image:url('Resource/Search_Icon.png');
+	background-position:10px 10px;
+	background-repeat:no-repeat;
+	padding:10px 18px 10px 30px;
+	-webkit-transition:width 0.4s ease-in-out;
+	transition:width 0.4s ease-in-out;
+}
+
+
+/*    Select options Design Starts         */
+.select_design
+{
+	width:170px;
+	height:30px;
+	overflow:hidden;
+	border:#333333 2px solid;
+	-webkit-border-radius:15px;
+	border-radius:3px;
+	-webkit-box-shadow:inset 0px 0px 10px 1px #FEFEFE;
+	box-shadow:inset 0px 0px 10px 1px #696969;
+}
+.select_design select
+{
+	background:transparent;
+	width:170px;
+	font-size:15pt;
+	color:grey;
+	border:0;
+	border-radius:0;
+	height:30px;
+	-webkit-appearance:none;
+}
+.select_design select:focus
+{
+	outline:none;
+}
+/*Select Design For Modify  Container*/
+.select_design2 select
+{
+	background:transparent;
+	width:170px;
+	font-size:10pt;
+	color:grey;
+	border:50;
+	border-radius:0;
+	height:30px;
+	-webkit-appearance:none;
+}
+.select_design2 select:focus
+{
+	outline:none;
+}
+
+/*    Select options Design Ends*/
+/*Design for Add Options Starts*/
+
+/*Design for Comics Load Starts */
+#container
+{
+}
+#full2
+{
+	width:250px;
+	height:250px;
+}
+
+#upper_full
+{
+	width:100%;
+	height:40px;
+}
+#middle
+{
+	width:100%;
+	height:230px;
+}
+/*Design for Comics Load Ends*/

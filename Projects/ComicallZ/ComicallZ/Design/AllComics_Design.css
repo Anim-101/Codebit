@@ -1,0 +1,189 @@
+/*Desing For All_Comics.php Page to Show Available Comics*/
+/*Upper Div Design Starts*/
+#parent
+{
+	width:100%;
+	height:100vh;
+	background-color:#DCDCDC;
+}
+#upper
+{
+	width:100%;
+	height:15vh;
+	background-color:#F0FFFF;
+}
+#lower
+{
+	width:100%;
+	height:85vh;
+}
+#part_upper1
+{
+	width:20%;
+	height:15vh;
+	float:left;
+	/*background-color:#F5F5DC;*/
+}
+#part_upper2
+{
+	width:40%;
+	height:15vh;
+	float:left;
+	/*background-color:#8A2BE2;*/
+}
+#part_upper3
+{
+	width:25%;
+	height:15vh;
+	float:left;
+	/*background-color:#00FFFF;*/
+}
+#part_upper4
+{
+	width:15%;
+	height:15vh;
+	float:left;
+}
+/*Upper Div Design Ends*/
+
+/*Lower Div Desing Starts*/
+#part_lower1
+{
+	width:20%;
+	height:85vh;
+	float:left;
+}
+#part_lower2
+{
+	width:60%;
+	height:85vh;
+	float:left;
+}
+#part_lower3
+{
+	width:20%;
+	height:85vh;
+	float:left;
+}
+/*Lower Div Desing Ends*/	
+
+input[type=text]
+{
+	width:350px;
+	box-sizing:border-box;
+	border-radius:20px;
+	border:2px solid #000;
+	border-radius:4px;
+	font-size:16px;
+	background-color:white;
+	background-image:url('Resource/Search_Icon.png');
+	background-position:10px 10px;
+	background-repeat:no-repeat;
+	padding:10px 18px 10px 30px;
+	-webkit-transition:width 0.4s ease-in-out;
+	transition:width 0.4s ease-in-out;
+}
+#result
+{
+	width:350px;
+}
+
+/*    Select options Design Starts         */
+.select_design
+{
+	width:170px;
+	height:30px;
+	overflow:hidden;
+	border:#333333 2px solid;
+	-webkit-border-radius:15px;
+	border-radius:3px;
+	-webkit-box-shadow:inset 0px 0px 10px 1px #FEFEFE;
+	box-shadow:inset 0px 0px 10px 1px #696969;
+}
+.select_design select
+{
+	background:transparent;
+	width:170px;
+	font-size:15pt;
+	color:grey;
+	border:0;
+	border-radius:0;
+	height:30px;
+	-webkit-appearance:none;
+}
+.select_design select:focus
+{
+	outline:none;
+}
+
+.forSearch
+{
+	padding-top:20px;
+}
+
+.forSelect
+{
+	padding-top:20px;
+}
+
+/* Button Design Starts */
+.buttons
+{
+	background-color:#778899;
+	border:none;
+	border-radius:12px;
+	color :white;
+	padding :3px 12px;
+	text-align:center;
+	text-decoration:none;
+	table-layout:fixed;
+	display:inline-block;
+	font-size:12px;
+	cursor:pointer;
+}
+.buttons:hover
+{
+	opacity:0.8;
+}
+.forButtons
+{
+	padding-top:23x;
+}
+/*Button Design Ends*/
+
+/*Design for Comics Load Starts */
+#container
+{
+	margin:100px;
+}
+
+#full
+{
+	width:600px;
+	height:300px;
+}
+
+#upper_full
+{
+	width:100%;
+	height:50px;
+}
+#middle_left_half
+{
+	width:40%;
+	height:200px;
+	float:left;
+}
+#middle_right_half
+{
+	width:60%;
+	height:200px;
+	float:left;
+}
+#lower_full
+{
+	padding-top:200px;
+	width:100%;
+	height:50px;
+}
+/*Design for Comics Load Ends*/
