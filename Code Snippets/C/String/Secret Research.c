@@ -1,6 +1,4 @@
-/* Problem Id : 621
-   Problem    : Secret Research
-   
+/* 
    Problem Description : At a certain laboratory results of secret research are thoroughly encrypted. A result of a single experiment is stored as an information of its completion:
    ‘positive result’, ‘negative result’, ‘experiment failed’ or ‘experiment not completed’ 
    The encrypted result constitutes a string of digits S, which may take one of the following forms:
