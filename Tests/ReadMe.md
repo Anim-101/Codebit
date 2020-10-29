@@ -1,1 +1,1 @@
-# Testing different different framework and programming languages building fun projects.
+# Testing different frameworks and programming languages by building fun and side test projects.
